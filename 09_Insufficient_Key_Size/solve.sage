@@ -17,10 +17,11 @@ def modinv(a, m):
         return x % m
 
 
-key = RSA.import_key(open("pub.pem").read())
+key = RSA.importKey(open("pub.pem").read())
 
-# factored using sage
-(q, p) = (662700133751480051, 878291059745115859)
+res = str(factor(key.n)).split()
+q = int(res[0])
+p = int(res[2])
 
 phin = (p - 1) * (q - 1)
 d = modinv(key.e, phin)

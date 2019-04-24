@@ -11,8 +11,11 @@ t2 = C2 * m2 * inverse_mod(m2, N2)
 t3 = C3 * m3 * inverse_mod(m3, N3)
 
 x = (t1 + t2 + t3) % M
-
 m = x.nth_root(e)
+
+# or use sage crt
+cmodn = crt([C1, C2, C3], [N1, N2, N3])
+m = cmodn.nth_root(e)
 
 assert(pow(m, e, N1) == C1)
 assert(pow(m, e, N2) == C2)

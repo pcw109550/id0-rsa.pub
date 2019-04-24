@@ -28,4 +28,5 @@ for i in range(n + 1):
                 sol.append(1)
         break
 
+assert(ct == sum([x * y for (x, y) in zip(sol, pk)]))
 print("{:x}".format(int("".join(map(str, sol)), 2)).decode("hex"))

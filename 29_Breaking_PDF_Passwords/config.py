@@ -1,0 +1,6 @@
+permissions = 0xfcffffff
+owner_hash = 0x79e64c5fd1d84a4ae2bc07e82636b34b5969c4fe6bcce36886db40dece66f0e2
+doc_id = 0xbfb6e1530b109ae5d10cf52562e8bd3a
+key_len = 128
+padding = 0x28BF4E5E4E758A4164004E56FFFA01082E2E00B6D0683E802F0CA9FE6453697A
+user_hash = 0xfe97c8762da0f0201eb463df6e181288

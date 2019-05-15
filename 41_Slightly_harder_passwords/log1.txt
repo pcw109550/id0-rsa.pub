@@ -1,0 +1,13 @@
+Using default input encoding: UTF-8
+Loaded 7 password hashes with 7 different salts (descrypt, traditional crypt(3) [DES 256/256 AVX2])
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+Th3              (?)
+0f               (?)
+w0rd             (?)
+u$e              (?)
+3@ch             (?)
+l4$t             (?)
+6g 0:00:00:17 DONE (2019-05-16 05:01) 0.3337g/s 407529p/s 675432c/s 675432C/s H3m10ck$..Z3410u$n
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed

@@ -1,0 +1,10 @@
+Using default input encoding: UTF-8
+Loaded 7 password hashes with 7 different salts (descrypt, traditional crypt(3) [DES 256/256 AVX2])
+Remaining 1 password hash
+Will run 4 OpenMP threads
+Warning: MaxLen = 13 is too large for the current hash type, reduced to 8
+Press 'q' or Ctrl-C to abort, almost any other key for status
+lett3r           (?)
+1g 0:00:00:02 DONE (2019-05-16 05:03) 0.3937g/s 593436p/s 593436c/s 593436C/s lemp92..spiui
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed
